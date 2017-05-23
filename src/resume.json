@@ -54,6 +54,63 @@
        ]
     }
   ],
+  "projects": [
+      {
+         "name": "LearnKanjiSkip",
+         "source": "https://github.com/urianchang/kanji_skip",
+         "description": "Collaborated in a team of three developers to create a website for teaching how to use the system of kanji indexing by patterns (SKIP). User progresses through levels to practice and become familiar with kanji SKIP codes. I also created a Python script to parse through a kanji dictionary (XML) and generate a JSON file to seed the database.",
+         "language": "JavaScript",
+         "frameworks": "AngularJS, Express",
+         "IDE": "",
+         "database": "MongoDB",
+         "deployed": "AWS EC2",
+         "url": "http://52.38.37.106/"
+      },
+      {
+          "name": "Let's Fly Away",
+          "source": "https://github.com/urianchang/letsFlyAway",
+          "description": "Solely created an iOS game where the player can fly around as a dirigible or kite to collect lost balloons and high-five other air travelers. App was created for the SpriteKit hackathon at Coding Dojo from March 10 - 13, 2017. Had to learn and implement SpriteKit and Core Motion frameworks in three days.",
+          "language": "Swift",
+          "frameworks": "UIKit, SpriteKit, GameplayKit, Core Motion",
+          "IDE": "Xcode 8.2.1",
+          "database": "",
+          "deployed": "",
+          "url": ""
+      },
+      {
+          "name": "ChorusLine",
+          "source": "https://github.com/urianchang/ChorusLine",
+          "description": "Collaborated in a team of three developers to create a lightweight music composition iOS app to help users quickly compose a melody when inspiration strikes. The user can choose from two different instrument sounds and hear the melody played back.",
+          "language": "Swift",
+          "frameworks": "UIKit, SpriteKit, GameplayKit, Core Data",
+          "IDE": "Xcode 8.2.1",
+          "database": "",
+          "deployed": "",
+          "url": ""
+      },
+      {
+          "name": "RunBud",
+          "source": "https://github.com/urianchang/RunBud",
+          "description": "Collaborated in a team of three developers to create an iOS app to help runners connect and share their running routes. App was created for the MapKit hackathon at Coding Dojo from March 16 - 17, 2017. Had to learn and implement the MapKit framework within 24 hours.",
+          "language": "Swift",
+          "frameworks": "UIKit, Map Kit",
+          "IDE": "Xcode 8.2.1",
+          "database": "",
+          "deployed": "",
+          "url": ""
+      },
+      {
+          "name": "JavaScript Code Editor",
+          "source": "https://github.com/urianchang/electron-code-editor",
+          "description": "Solely created a JavaScript code editor built with the Electron framework and Monaco editor. Core features of the app: open .JS files; save code as any file type; auto-complete and text coloring as supported by the Monaco editor.",
+          "language": "JavaScript",
+          "frameworks": "Electron",
+          "IDE": "",
+          "database": "",
+          "deployed": "",
+          "url": ""
+      }
+  ],
   "volunteer": [],
   "education": [
       {
