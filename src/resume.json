@@ -5,7 +5,7 @@
     "picture": "./profilePhoto.jpg",
     "email": "urianchang@gmail.com",
     "website": "WEBSITE HERE",
-    "summary": "Software QA engineer looking to transition into a software engineer/developer role. Experienced in web development with modern front-end and back-end technologies, SQL and NoSQL database query languages, and RESTful APIs. Eager to tackle new challenges with a collaborative team and build innovative products.",
+    "summary": "Software Engineer with a background in software QA testing. Experienced in web development with modern front-end and back-end technologies, SQL and NoSQL database query languages, and RESTful APIs. Experienced in iOS app development with Xcode 8 and Swift 3. Always eager to take on new challenges with a collaborative team and build robust, innovative products.",
     "location": {
       "city": "Cupertino",
       "state": "California",
@@ -26,26 +26,54 @@
   },
   "work": [
     {
-      "company": "IAG",
-      "position": "Lead Front End Developer",
-      "website": "http://nrma.com.au",
-      "startDate": "2016-08-01",
-      "endDate": "",
-      "summary": "I am currently working as a lead front end developer on a small React team building Insurance applications and I am across multiple applications that have been built or are being built using our new development stack. IAG are keen to utilise the latest front end technologies and we have had great success as a team using React/Redux running on a Node Express server and using an API backend architecture to access the various IAG systems. We are striving to increase the quality of our projects with good test coverage and code reviews and improving our continuous integration practices.",
-      "highlights": []
+        "company": "InFocus Corporation",
+        "position": "Senior Software Quality Assurance Engineer",
+        "location": "Mountain View, CA",
+        "startDate": "2014-01-02",
+        "endDate": "",
+        "summary": "Responsible for evaluating compatibility, functionality, and usability of InFocus collaboration software. Consistently recognized as the top performing tester in the software QA department (15 people).",
+        "highlights": [
+            "Started as Software QA Engineer. Promoted to Senior Software QA Engineer.",
+            "Author and execute test plans for InFocus software on desktop and mobile platforms, including Windows, iOS, and Android.",
+            "Took over creating custom system images for Windows 7, 8.1, and 10 for production deployment. Write batch scripts for customizations and deployment.",
+            "Wrote a Python script to manage the company’s AWS instances, and automated scripts for testing on Windows 10."
+        ]
+    },
+    {
+       "company": "Coolpad Technologies, Inc.",
+       "position": "Device Test Lead",
+       "location": "San Diego, CA",
+       "startDate": "2012-01-01",
+       "endDate": "2013-12-31",
+       "summary": "Responsible for executing device testing/certification tasks, tracking and resolving project issues in a timely manner and managing project deliverables and deadlines.",
+       "highlights": [
+           "Started as Software & Hardware Test Intern. Promoted to Lead Intern, Product Analyst, and Device Test Lead.",
+           "Successfully reached Technical Approval for new products with Open Mobile and T-Mobile GoSmart.",
+           "Created guides for device launch timelines and requirements for future product planning and management.",
+           "Organized and created After Action Review and Lessons Learned PowerPoint presentations for internal and external reviews at the end of the T-Mobile GoSmart project."
+       ]
     }
   ],
   "volunteer": [],
   "education": [
-    {
-      "institution": "Birmingham Conservatoire",
-      "area": "Music",
-      "studyType": "Bachelor (hons)",
-      "startDate": "1994-08-01",
-      "endDate": "1998-07-01",
-      "gpa": "",
-      "courses": []
-    }
+      {
+        "institution": "Coding Dojo - Silicon Valley",
+        "area": "",
+        "studyType": "Certificate of Completion",
+        "startDate": "1994-08-01",
+        "endDate": "1998-07-01",
+        "gpa": "",
+        "courses": []
+      },
+      {
+        "institution": "Birmingham Conservatoire",
+        "area": "Music",
+        "studyType": "Bachelor (hons)",
+        "startDate": "1994-08-01",
+        "endDate": "1998-07-01",
+        "gpa": "",
+        "courses": []
+      }
   ],
   "awards": [],
   "publications": [],

@@ -76,3 +76,6 @@ a {
 .workDates {
   color: #777;
 }
+.companyLocation {
+    font-style: italic;
+}
