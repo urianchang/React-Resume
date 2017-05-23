@@ -5,7 +5,7 @@
     "picture": "http://i.imgur.com/3cEmUPx.jpg",
     "email": "urianchang@gmail.com",
     "website": "WEBSITE HERE",
-    "summary": "Software Engineer with a background in software QA testing. Experienced in web development with modern front-end and back-end technologies, SQL and NoSQL database query languages, and RESTful APIs. Experienced in iOS app development with Xcode 8 and Swift 3. Always eager to take on new challenges with a collaborative team and build robust, innovative products.",
+    "summary": "Software engineer with a strong background in software QA testing. Experienced in web development with modern front-end and back-end technologies, SQL and NoSQL database query languages, and RESTful APIs. Eager to tackle new challenges with a collaborative team and build innovative products.",
     "location": {
       "city": "Cupertino",
       "state": "California",
@@ -109,7 +109,7 @@
       {
           "name": "RunBud",
           "source": "https://github.com/urianchang/RunBud",
-          "description": "A jogging companion app built for iOS mobile devices to track and share running routes",
+          "description": "A jogging companion app built for iOS mobile devices to track and share running routes.",
           "highlights": [
               "Designed and developed in a team of three developers, using Swift and Xcode 8.",
               "Implemented features to record and display running routes with the Map Kit framework.",

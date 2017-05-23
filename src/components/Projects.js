@@ -1,23 +1,21 @@
 import React from 'react';
+import ProjectItem from './ProjectItem';
 
 const Projects = props => {
-    const getProjects = props.projectsData.map(function(item, index) {
-  		return (
-          <div key={index}>
-            <h3 className="text-italicize">{item.name}</h3>
-            <span className='label label-primary'>{item.language}</span>
-  			<p>{item.description}</p>
-            <p></p>
-  		  </div>
-        )
-  	});
+    const getProjectDetails = () => {
+        const projectItems = [];
+        props.projectsData.forEach((val, index) => {
+            projectItems.push(<ProjectItem key={index} projectItemData={val}/>);
+        });
+        return projectItems;
+    }
 
   	return (
   	  <section className="projects">
         <h2 className="text-uppercase"><i className="fa fa-lg fa-thumb-tack"></i> Projects</h2>
-        {getProjects}
+        {getProjectDetails()}
       </section>
   	)
 };
 
-export default Projects
+export default Projects;

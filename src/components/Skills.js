@@ -12,7 +12,7 @@ const Skills = props => {
   	return (
   	  <section className="skills">
         <h2 className="text-uppercase"><i className="fa fa-lg fa-code"></i> Technical Skills</h2>
-        <table className="table">{getSkills()}</table>
+        <table className="borderless"><tbody>{getSkills()}</tbody></table>
       </section>
     );
 };

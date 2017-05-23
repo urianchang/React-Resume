@@ -86,3 +86,6 @@ a {
 th, td {
     padding: 3px;
 }
+.borderless td, .borderless th, .borderless tr, .borderless tbody {
+    border: none;
+}
