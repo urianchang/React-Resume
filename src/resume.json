@@ -2,7 +2,7 @@
   "basics": {
     "name": "Urian Chang",
     "label": "Software Engineer",
-    "picture": "./profilePhoto.jpg",
+    "picture": "",
     "email": "urianchang@gmail.com",
     "website": "WEBSITE HERE",
     "summary": "Software Engineer with a background in software QA testing. Experienced in web development with modern front-end and back-end technologies, SQL and NoSQL database query languages, and RESTful APIs. Experienced in iOS app development with Xcode 8 and Swift 3. Always eager to take on new challenges with a collaborative team and build robust, innovative products.",
@@ -58,21 +58,17 @@
   "education": [
       {
         "institution": "Coding Dojo - Silicon Valley",
-        "area": "",
+        "location": "San Jose, CA",
         "studyType": "Certificate of Completion",
-        "startDate": "1994-08-01",
-        "endDate": "1998-07-01",
-        "gpa": "",
-        "courses": []
+        "startDate": "2017-01-01",
+        "endDate": "2017-04-27"
       },
       {
-        "institution": "Birmingham Conservatoire",
-        "area": "Music",
-        "studyType": "Bachelor (hons)",
-        "startDate": "1994-08-01",
-        "endDate": "1998-07-01",
-        "gpa": "",
-        "courses": []
+        "institution": "University of California, Los Angeles",
+        "location": "Los Angeles, CA",
+        "studyType": "B.A. English",
+        "startDate": "2006-09-01",
+        "endDate": "2010-06-01"
       }
   ],
   "awards": [],

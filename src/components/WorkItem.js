@@ -21,7 +21,7 @@ const WorkItem = props => {
     return (
         <div className="workItem">
           <h3>{props.workItemData.position}</h3>
-          <h4>{props.workItemData.company}  |  <span className='companyLocation'>{props.workItemData.location}</span></h4>
+          <h4>{props.workItemData.company}  |  <span className='text-italicize'>{props.workItemData.location}</span></h4>
           <p className="workDates">{getWorkDates()}</p>
           <p>{props.workItemData.summary}</p>
           <ul>{getHighlights}</ul>
