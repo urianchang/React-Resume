@@ -6,7 +6,7 @@ const Work = props => {
         const workItems = [];
         props.workData.forEach((val, index) => {
           workItems.push(<WorkItem key={index} workItemData={val}/>);
-        })
+      });
         return workItems;
     }
 

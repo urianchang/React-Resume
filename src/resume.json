@@ -2,7 +2,7 @@
   "basics": {
     "name": "Urian Chang",
     "label": "Software Engineer",
-    "picture": "",
+    "picture": "http://i.imgur.com/3cEmUPx.jpg",
     "email": "urianchang@gmail.com",
     "website": "WEBSITE HERE",
     "summary": "Software Engineer with a background in software QA testing. Experienced in web development with modern front-end and back-end technologies, SQL and NoSQL database query languages, and RESTful APIs. Experienced in iOS app development with Xcode 8 and Swift 3. Always eager to take on new challenges with a collaborative team and build robust, innovative products.",
@@ -15,12 +15,12 @@
       {
         "network": "LinkedIn",
         "username": "urianchang",
-        "url": ""
+        "url": "https://www.linkedin.com/in/urianchang"
       },
       {
         "network": "Github",
         "username": "urianchang",
-        "url": ""
+        "url": "https://github.com/urianchang"
       }
     ]
   },
@@ -75,33 +75,69 @@
   "publications": [],
   "skills": [
     {
-      "name": "Front End Development",
-      "level": "Master",
+      "name": "Languages",
       "keywords": [
+        "JavaScript",
+        "Python",
+        "Swift",
         "HTML",
         "CSS",
-        "Javascript",
-        "ES2015",
-        "jQuery",
-        "Typescript",
-        "Meteor",
-        "React",
-        "Handlebars",
-        "SASS",
-        "LESS",
-        "Gulp",
-        "Grunt",
-        "Babel",
-        "Bootstrap",
-        "Semantic UI",
-        "Material css",
-        "Node",
-        "php",
-        "MySQL",
-        "Git",
-        "Jira",
-        "Responsive"
+        "C++"
       ]
+    },
+    {
+        "name": "Libraries / Frameworks",
+        "keywords": [
+            "Django",
+            "Flask",
+            "jQuery",
+            "Angular",
+            "Express",
+            "React",
+            "Socket.io",
+            "Electron",
+            "SpriteKit",
+            "UIKit",
+            "GameplayKit",
+            "Core Motion",
+            "MapKit"
+        ]
+    },
+    {
+        "name": "Databases",
+        "keywords": [
+            "MongoDB",
+            "MySQL",
+            "SQLite",
+            "Firebase",
+            "Core Data"
+        ]
+    },
+    {
+        "name": "Version Control",
+        "keywords": [
+            "Git"
+        ]
+    },
+    {
+        "name": "IDE",
+        "keywords": [
+            "Xcode 8",
+            "Code::Blocks"
+        ]
+    },
+    {
+        "name": "Bug Tracking Systems",
+        "keywords": [
+            "Bugzilla",
+            "Assembla"
+        ]
+    },
+    {
+        "name": "Deployment",
+        "keywords": [
+            "AWS EC2"
+        ]
     }
   ],
   "languages": [

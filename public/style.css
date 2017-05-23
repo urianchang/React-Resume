@@ -68,7 +68,7 @@ a {
 }
 
 .about, .work, .education, .skills {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .skills-list li {
   font-size: 18px;
@@ -78,4 +78,10 @@ a {
 }
 .text-italicize {
     font-style: italic;
+}
+.label {
+    background-color: purple;
+}
+th, td {
+    padding: 3px;
 }

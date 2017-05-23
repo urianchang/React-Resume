@@ -10,7 +10,6 @@ const WorkItem = props => {
         } else {
           enddate = 'Present';
         }
-
         return <span className='startdate'>{startdate} - {enddate}</span>;
     }
 

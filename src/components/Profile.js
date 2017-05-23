@@ -3,8 +3,8 @@ import React from 'react';
 const Profile = props => {
     const profileObj = props.profileData;
     return  <div>
-                  <div className="profileImg"><img className="img-circle center-block" src={"http://i.imgur.com/3cEmUPx.jpg"} alt="" width="200" /></div>
-                  <h1 className="text-center">{"{ " + profileObj.name + " }"}</h1>
+                  <div className="profileImg"><img className="img-circle center-block" src={profileObj.picture} alt="" width="200" /></div>
+                  <h1 className="text-center">{profileObj.name}</h1>
                   <h2 className="text-center">{profileObj.label}</h2>
                   <div className="divider"></div>
                   <ul className="list-unstyled contact-links text-center">
@@ -13,11 +13,11 @@ const Profile = props => {
                   </ul>
                   <div className="divider"></div>
                   <ul className="profileLinks list-inline text-center">
-                    <li><a className="fa fa-linkedin-square fa-2x" href={'https://www.linkedin.com/in/'+profileObj.profiles[0].username}></a></li>
-                    <li><a className="fa fa-github fa-2x" href={'https://github.com/'+profileObj.profiles[1].username}></a></li>
+                    <li><a className="fa fa-linkedin-square fa-2x" href={profileObj.profiles[0].url}></a></li>
+                    <li><a className="fa fa-github fa-2x" href={profileObj.profiles[1].url}></a></li>
                   </ul>
                   <div className="divider"></div>
-                  <p>Built with <a href="https://facebook.github.io/react/">React</a> components. Inspired by <a href="http://jonbloomer.com.au/">Jonathan Bloomer's resume</a>. Full source code in <a href="https://github.com/urianchang/React-Resume">my Github repo</a>.</p>
+                  <p>Built with <a href="https://facebook.github.io/react/">React</a> components and a <a href="https://jsonresume.org/schema/">JSON Resume Schema</a>. Inspired by <a href="http://jonbloomer.com.au/">Jonathan Bloomer's resume</a>. Full source code in <a href="https://github.com/urianchang/React-Resume">my Github repo</a>.</p>
             </div>
 };
 
