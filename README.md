@@ -1,3 +1,9 @@
+# React Resume
+
+My resume built with [React](https://facebook.github.io/react/) and a [JSON Resume Schema](https://jsonresume.org/schema/). Inspired by [Jonathan Bloomer's resume](http://jonbloomer.com.au/).
+
+## Details
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
