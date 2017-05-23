@@ -1,11 +1,10 @@
 import React from 'react';
-// import logo from './logo.svg';
 import About from './components/About';
 import Profile from './components/Profile';
 import Education from './components/Education';
 import Work from './components/Work';
 import Skills from './components/Skills';
-// import './App.css';
+import Projects from './components/Projects';
 
 const App = props => {
   const profileData = props.jsonObj.basics;
@@ -13,7 +12,7 @@ const App = props => {
   const workData = props.jsonObj.work;
   const skillsData = props.jsonObj.skills;
   const educationData = props.jsonObj.education;
-  // console.log(profileData)
+  const projectsData = props.jsonObj.projects;
   return (
           <div className="container">
             <div className="row">
@@ -26,6 +25,7 @@ const App = props => {
                 <div className="inner">
                   <About aboutData={aboutData} />
                   <Skills skillsData={skillsData} />
+                  <Projects projectsData={projectsData} />
                   <Work workData={workData} />
                   <Education educationData={educationData} />
                 </div>
