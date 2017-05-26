@@ -10,11 +10,13 @@ const Profile = props => {
                   <ul className="list-unstyled contact-links text-center">
                     <li><i className="fa fa-lg fa-location-arrow"></i> {profileObj.location.city}, {profileObj.location.state}, {profileObj.location.country}</li>
                     <li><i className="fa fa-lg fa-envelope"></i> <a href={"mailto:" + profileObj.email}>{profileObj.email}</a></li>
+                    <li><i className="fa fa-lg fa-globe"></i> <a href={profileObj.website}>urian.fun</a></li>
                   </ul>
                   <div className="divider"></div>
                   <ul className="profileLinks list-inline text-center">
-                    <li><a className="fa fa-linkedin-square fa-2x" href={profileObj.profiles[0].url}></a></li>
-                    <li><a className="fa fa-github fa-2x" href={profileObj.profiles[1].url}></a></li>
+                    <li><a className="fa fa-smile-o fa-2x" href={profileObj.profiles[0].url}> </a></li>
+                    <li><a className="fa fa-linkedin-square fa-2x" href={profileObj.profiles[1].url}> </a></li>
+                    <li><a className="fa fa-github fa-2x" href={profileObj.profiles[2].url}> </a></li>
                   </ul>
                   <div className="divider"></div>
                   <p>Built with <a href="https://facebook.github.io/react/">React</a> components and a <a href="https://jsonresume.org/schema/">JSON Resume Schema</a>. Inspired by <a href="http://jonbloomer.com.au/">Jonathan Bloomer's resume</a>. Full source code in <a href="https://github.com/urianchang/React-Resume">my Github repo</a>.</p>
