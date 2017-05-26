@@ -4,7 +4,7 @@
     "label": "Software Engineer",
     "picture": "http://i.imgur.com/3cEmUPx.jpg",
     "email": "urianchang@gmail.com",
-    "website": "WEBSITE HERE",
+    "website": "http://urian.fun",
     "summary": "Software engineer with a strong background in software QA testing. Experienced in web development with modern front-end and back-end technologies, SQL and NoSQL database query languages, and RESTful APIs. Eager to tackle new challenges with a collaborative team and build innovative products.",
     "location": {
       "city": "Cupertino",
@@ -12,6 +12,11 @@
       "country": "USA"
     },
     "profiles": [
+      {
+        "network": "Portfolio",
+        "username": "",
+        "url": "http://urianchang.com"
+      },
       {
         "network": "LinkedIn",
         "username": "urianchang",

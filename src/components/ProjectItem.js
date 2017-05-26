@@ -11,7 +11,7 @@ const ProjectItem = props => {
           <ul className="profileLinks list-inline">
               <li><h3>{props.projectItemData.name}</h3></li>
               <li><span className='label label-primary'>{props.projectItemData.language}</span></li>
-              <li><a className="fa fa-github fa-2x" href={props.projectItemData.source}></a></li>
+              <li><a className="fa fa-github fa-2x" href={props.projectItemData.source}> </a></li>
               <li><a href={props.projectItemData.url}>{props.projectItemData.url}</a></li>
           </ul>
           <p>{props.projectItemData.description}</p>
