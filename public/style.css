@@ -33,9 +33,9 @@ h4 {
   font-weight: 700;
 }
 section h2 {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   border-bottom: 1px solid #f0f0f0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 a {
   -webkit-transition: all 0.5s ease-out;
@@ -45,9 +45,8 @@ a {
   transition: all 0.5s ease-out;
   /*color: #873D87;*/
 }
-
 .divider {
-  padding: 10px 20px 0 20px;
+  padding: 10px 10px 0px 10px;
   border-bottom: 1px solid #f0f0f0;
   margin-bottom: 20px;
 }
@@ -56,9 +55,8 @@ a {
   margin-right: 5px;
   top: 4px;
 }
-
 .contact-links li {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .profileLinks li a {
   text-decoration: none;
@@ -67,15 +65,38 @@ a {
 .profileLinks li a:hover {
   color: #873D87;
 }
-
 .about, .work, .education, .skills, .projects {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+}
+.work {
+    margin-top: 30px;
 }
 .skills-list li {
   font-size: 18px;
 }
+.projectItem {
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.projectItem p {
+    margin-top: -3px;
+    margin-bottom: 4px;
+}
+.workItem {
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+.workItem p {
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+.workItem h4 {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
 .workDates {
   color: #777;
+  margin-top: -5px;
 }
 .text-italicize {
     font-style: italic;
@@ -83,8 +104,14 @@ a {
 .label {
     background-color: #873D87;
 }
+.education h4 {
+    margin-top: 15px;
+}
 th, td {
     padding: 3px;
+}
+table {
+    margin-bottom: -5px;
 }
 .borderless td, .borderless th, .borderless tr, .borderless tbody {
     border: none;
